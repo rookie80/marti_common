@@ -34,7 +34,7 @@
 
 #include <boost/serialization/singleton.hpp>
 #include <boost/thread/mutex.hpp>
-
+#define ACCEPT_USE_OF_DEPRECATED_PROJ_API_H 1
 #include <proj_api.h>
 
 namespace swri_transform_util
