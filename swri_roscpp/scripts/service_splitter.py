@@ -43,7 +43,7 @@ import sys
 data = sys.argv
 
 
-rf = open(data[1], "rb")
+rf = open(data[1], "rt")
 contents = rf.read();
 lines = contents.decode().split('---')# split by statement
 #split by brackets
